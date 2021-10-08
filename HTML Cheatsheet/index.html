@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
+    
+    <link href="./styles.css" rel="stylesheet">
+    <title>HTML Cheatsheet</title>
+</head>
+<body>
+    <header>
+        <h1>HTML Cheatsheet</h1>
+        <nav>
+            <ul>
+                <li><a href=#elements>HTML Elements</a></li>
+                <li><a href=#structures>HTML Structures</a></li>
+                <li><a href=#tables>HTML Tables</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2 class='subtitle' id='elements'>HTML Elements</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th class='column1'>Formula</th>
+                        <th class='column2'>Name</th>
+                        <th class='column3'>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>&lt;h1&gt; - &lt;h6&gt;</td>
+                        <td>Heading 1 - Heading 6</td>
+                        <td>
+                            Provide titles for sections of content.
+                            <br>
+                            &lt;h1&gt; is the highest level of heading.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>&lt;p&gt;</td>
+                        <td>Paragraph</td>
+                        <td>Contains and displays a block of text.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;img&gt;</td>
+                        <td>Image</td>
+                        <td>
+                            &lt;img src='image.png'&gt;
+                            <br>
+                            Embeds images in the document.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>&lt;video&gt;</td>
+                        <td>Video</td>
+                        <td>&lt;video src='video.mp4' controls&gt;Video not supported&lt;/video&gt;
+                            <br>
+                            Embeds videos in the document.
+                            <br>
+                            Controls attribute displays video controls in the media player.
+                            <br>
+                            The content inside the opening and closing tag is shown as a fallback.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>&lt;audio&gt;</td>
+                        <td>Audio</td>
+                        <td>&lt;audio src='audio.mp3' controls&gt;Audio not supported&lt;/audio&gt;
+                            <br>
+                            Embeds audios in the document.
+                            <br>
+                            Controls attribute displays audio controls in the media player.
+                            <br>
+                            The content inside the opening and closing tag is shown as a fallback.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>&lt;embed&gt;</td>
+                        <td>Embed</td>
+                        <td>
+                            &lt;embed src='image.png'/&gt;
+                            <br>
+                            Embeds media files in the document.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>alt</td>
+                        <td>Alt Attribute</td>
+                        <td>
+                            Displays the alternative text if the media file fails to render.
+                            <br>
+                            If the media is for decorative purpose, set this attribute to an empty string, alt=''.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>&lt;em&gt;</td>
+                        <td>Emphasize</td>
+                        <td>Emphasized context appears in italic.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;strong&gt;</td>
+                        <td>Strong</td>
+                        <td>Strongly emphasized context appears in bold.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;span&gt;</td>
+                        <td>Span</td>
+                        <td>Acts as an inline container for text to separate from a larger body of text for styling purposes.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;div&gt;</td>
+                        <td>Division</td>
+                        <td>Acts as a container to divide the document into sections.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;br&gt;</td>
+                        <td>Break</td>
+                        <td>Creates a line break such that the text ends immediately on the current line and resume on the next.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section>
+            <h2 class='subtitle' id='structures'>HTML Structures</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th class='column1'>Formula</th>
+                        <th class='column2'>Name</th>
+                        <th class='column3'>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>&lt;!DOCTYPE html&gt;</td>
+                        <td>HTML File Type Declaration</td>
+                        <td>Must appear at the first line of the code in the HTML files.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;html&gt;</td>
+                        <td>HTML</td>
+                        <td>Contains all of the HTML code.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;head&gt;</td>
+                        <td>Head</td>
+                        <td>
+                            Not shown on the webpage.
+                            <br>
+                            Contains metadatas such as title, linking to another file.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>&lt;body&gt;</td>
+                        <td>Body</td>
+                        <td>
+                            Shown on the webpage.
+                            <br>
+                            Contains contents such as header, main, footer.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>&lt;title&gt;</td>
+                        <td>Title</td>
+                        <td>Contains the title of your webpage that appears in the browser tab.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;a&gt;</td>
+                        <td>Anchor</td>
+                        <td>Creates hyperlinks and links to internal pages, external pages or content on the same page.</td>
+                    </tr>
+                    <tr>
+                        <td>id</td>
+                        <td>ID Attribute</td>
+                        <td>
+                            &lt;h1 id='id1'&gt;&lt;/h1&gt;
+                            <br>
+                            &lt;a href='#id1' target='_black'&gt;Anchor&lt;/a&gt;
+                            <br>
+                            Most specific attribute and can be used only once.
+                            <br>
+                            The target attribute specifies where a hyperlink should be opened. In this case, the attribute will tell the browser to open the hyperlink in a new tab.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>class</td>
+                        <td>Class Attribute</td>
+                        <td>
+                            &lt;h1 class='class1'&gt;&lt;/h1&gt;
+                            <br>
+                            Most specific attribute and can be used only once.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>&lt;header&gt;</td>
+                        <td>Header</td>
+                        <td>
+                            Semantically describes the content at the top of the page &lt;body&gt;.
+                            <br>
+                            Contains heading 1 and might include a logo, navigational links or a search bar.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>&lt;nav&gt;</td>
+                        <td>Navigation</td>
+                        <td>Contains a group of navigational links.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;main&gt;</td>
+                        <td>Main</td>
+                        <td>
+                            Contains the main content of a page in between the header, navigation and the footer areas.
+                            <br>
+                            Might contain &lt;article&gt;, &lt;section&gt;, sometimes &lt;header&gt; and &lt;aside&gt;.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>&lt;footer&gt;</td>
+                        <td>Footer</td>
+                        <td>
+                            Semantically describes the content at the bottom of the page &lt;body&gt;.
+                            <br>
+                            Might include contact information, copyrights, a logo or navigational links.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>&lt;article&gt;</td>
+                        <td>Article</td>
+                        <td>Holds independent content that makes sense on its own such as articles, blogs, and comments.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;section&gt;</td>
+                        <td>Section</td>
+                        <td>Defines elements in a document, such as chapters, headings, or any other area of the document with the same theme.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;aside&gt;</td>
+                        <td>Aside</td>
+                        <td>Marks additional information as a sidebar that can enhance another element but isn’t required in order to understand the main content.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;fig&gt;</td>
+                        <td>Figure</td>
+                        <td>Encapsulates media such as an image, a diagram or a code snippet.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;figcaption&gt;</td>
+                        <td>Figure Caption</td>
+                        <td>Describes the media encapsulated within the &lt;fig&gt;.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;ul&gt;</td>
+                        <td>Unordered List</td>
+                        <td>
+                            &lt;ul&gt;
+                            <br>
+                            &lt;li&gt;Item 1&lt;/li&gt;
+                            <br>
+                            &lt;li&gt;Item 2&lt;/li&gt;
+                            <br>
+                            &lt;ul&gt;
+                            <br>
+                            Unordered list of items.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>&lt;ol&gt;</td>
+                        <td>Ordered List</td>
+                        <td>
+                            &lt;ol&gt;
+                            <br>
+                            &lt;li&gt;Item 1&lt;/li&gt;
+                            <br>
+                            &lt;li&gt;Item 2&lt;/li&gt;
+                            <br>
+                            &lt;ol&gt;
+                            <br>
+                            Ordered list of items.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>&lt;!-- comment --&gt;</td>
+                        <td>Comment</td>
+                        <td>Not shown on the webpage.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section>
+            <h2 class='subtitle' id='tables'>HTML Tables</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th class='column1'>Formula</th>
+                        <th class='column2'>Name</th>
+                        <th class='column3'>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>&lt;table&gt;</td>
+                        <td>Table</td>
+                        <td>Creates a table.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;thead&gt;</td>
+                        <td>Table Head</td>
+                        <td>Creates the table’s head.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;tbody&gt;</td>
+                        <td>Table Body</td>
+                        <td>Creates the table’s body.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;tfooter&gt;</td>
+                        <td>Table Footer</td>
+                        <td>Creates the table’s footer.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;tr&gt;</td>
+                        <td>Table Row</td>
+                        <td>Adds rows to the table.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;th&gt;</td>
+                        <td>Table Heading</td>
+                        <td>Adds heading to the table's row.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;td&gt;</td>
+                        <td>Table Data</td>
+                        <td>Adds data to the table's row.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;rowspan&gt;</td>
+                        <td>Row Span</td>
+                        <td>Spans table's row.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;colspan&gt;</td>
+                        <td>Column Span</td>
+                        <td>Spans table's columns.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <nav id='nav2'>
+            <ul>
+                <li><a href=#elements>HTML Elements</a></li>
+                <li><a href=#structures>HTML Structures</a></li>
+                <li><a href=#tables>HTML Tables</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>

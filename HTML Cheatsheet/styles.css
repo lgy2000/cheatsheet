@@ -1,0 +1,78 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(209, 239, 245);
+  /*background-color: rgb(224, 238, 255);*/
+}
+
+h1,
+h2 {
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  color: whitesmoke;
+  text-align: center;
+}
+
+h1 {
+  font-size: 50px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-image: url(images/galaxy1.jpg);
+}
+
+h2 {
+  font-size: 30px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+th {
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+}
+
+th,
+td {
+  border: 0.5px solid rgb(126, 126, 126);
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 8px;
+  padding-left: 8px;
+}
+table {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-right: 65px;
+  padding-left: 65px;
+}
+.column1,
+.column2 {
+  width: 200px;
+}
+
+.column3 {
+  width: fit-content;
+}
+
+#elements {
+  background-image: url(images/galaxy2.webp);
+}
+
+#structures {
+  background-image: url(images/galaxy3.jpg);
+}
+
+#tables {
+  background-image: url(images/galaxy4.jpg);
+}
+
+#nav2 {
+  background-image: url(images/galaxy2.webp);
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
+#nav2 a {
+  color: whitesmoke;
+}
+
+/*#nav2 a[]*/
