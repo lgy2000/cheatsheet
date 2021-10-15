@@ -16,7 +16,7 @@ h1 {
   font-size: 50px;
   padding-top: 15px;
   padding-bottom: 15px;
-  background-image: url(images/galaxy1.jpg);
+  background-image: url(resources/images/galaxy1.jpg);
 }
 
 h2 {
@@ -54,19 +54,19 @@ table {
 }
 
 #elements {
-  background-image: url(images/galaxy2.webp);
+  background-image: url(resources/images/galaxy2.webp);
 }
 
 #structures {
-  background-image: url(images/galaxy3.jpg);
+  background-image: url(resources/images/galaxy3.jpg);
 }
 
 #tables {
-  background-image: url(images/galaxy4.jpg);
+  background-image: url(resources/images/galaxy4.jpg);
 }
 
 #nav2 {
-  background-image: url(images/galaxy2.webp);
+  background-image: url(resources/images/galaxy2.webp);
   padding-top: 1px;
   padding-bottom: 1px;
 }
