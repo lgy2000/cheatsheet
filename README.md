@@ -1,6 +1,6 @@
 # My Cheatsheets
 
-This webpage project includes HTML cheatsheet and is build with HTML and CSS. 
+This webpage project includes HTML cheatsheet and is build with HTML and CSS.
 
 ## Technologies
 
